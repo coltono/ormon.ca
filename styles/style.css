@@ -108,6 +108,14 @@ a {
   width: 120vh;
 }
 
+.thirdPage h1 {
+  font-size: 4vh;
+}
+
+.thirdPage div {
+  font-size: larger;
+}
+
 #skills {
   scroll-margin-top: 35vh;
 }
@@ -121,9 +129,17 @@ a {
   width: 120vh;
 }
 
+.fourthPage h1 {
+  font-size: 4vh;
+}
+
+.fourthPage div {
+  font-size: larger;
+}
+
 .contactContainer {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
   grid-template-rows: auto;
 }
 
@@ -156,4 +172,10 @@ a {
 
 #contact {
   scroll-margin-top: 35vh;
+}
+
+footer {
+  position: fixed;
+  top: 97vh;
+  margin-left: 94%;
 }

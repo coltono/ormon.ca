@@ -1,0 +1,159 @@
+@import url("https://fonts.google.com/specimen/Roboto+Mono");
+
+:root {
+  --navy-blue: #0a101d;
+  --light-gray: #dadada;
+  --baby-blue: #87ceeb;
+}
+body {
+  background-color: var(--navy-blue);
+  color: var(--light-gray);
+  font-family: "Roboto Mono", monospace;
+  cursor: cell;
+  color: var(--light-gray);
+}
+
+div {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  color: var(--baby-blue);
+}
+
+.button {
+  background-color: var(--baby-blue);
+  color: var(--light-gray);
+}
+
+a {
+  cursor: grab;
+  color: var(--light-gray);
+}
+
+/* TOP NAVBAR START */
+.nameHeader {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 2;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navHeader {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+}
+
+.navContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+#navSkills {
+  display: grid;
+  justify-content: center;
+}
+
+.navItem {
+  margin-left: 5px;
+}
+
+/* TOP NAVBAR END */
+
+/* First page styling */
+#headerLink {
+  color: var(--baby-blue);
+  text-decoration: none;
+}
+.nameHeader {
+  margin: 31.65vh 0 44.31vh;
+}
+#name {
+  font-size: 7vh;
+}
+
+/* Second page styling */
+.secondPage {
+  margin: 44.31vh 18vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 120vh;
+}
+
+.secondPage h1 {
+  font-size: 4vh;
+}
+
+.secondPage div {
+  font-size: larger;
+}
+
+#aboutMe {
+  scroll-margin-top: 35vh;
+}
+
+/* Third page styling */
+.thirdPage {
+  margin: 44.31vh 18vh;
+  display: grid;
+  align-items: center;
+
+  width: 120vh;
+}
+
+#skills {
+  scroll-margin-top: 35vh;
+}
+
+/* Fourth page styling */
+
+.fourthPage {
+  margin: 44.31vh 18vh;
+  display: grid;
+  align-items: center;
+  width: 120vh;
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+}
+
+.contactBox input {
+  background-color: var(--navy-blue);
+  color: var(--baby-blue);
+  width: 50vh;
+  margin: 0.5vh;
+}
+
+#formSubmit,
+#formClear {
+  width: 10vh;
+}
+
+.contactText {
+  grid-column: 1;
+}
+
+#formName {
+  height: 3vh;
+}
+
+#email {
+  height: 3vh;
+}
+#message {
+  height: 10vh;
+}
+
+#contact {
+  scroll-margin-top: 35vh;
+}

@@ -9,8 +9,8 @@ body {
   background-color: var(--navy-blue);
   color: var(--light-gray);
   font-family: "Roboto Mono", monospace;
-  cursor: cell;
   color: var(--light-gray);
+  cursor: cell;
 }
 
 div {
@@ -84,7 +84,7 @@ a {
   display: grid;
   align-items: center;
   justify-content: center;
-  width: 120vh;
+  max-width: 120vh;
 }
 
 .secondPage h1 {
@@ -95,17 +95,12 @@ a {
   font-size: larger;
 }
 
-#aboutMe {
-  scroll-margin-top: 35vh;
-}
-
 /* Third page styling */
 .thirdPage {
   margin: 44.31vh 18vh;
   display: grid;
   align-items: center;
-
-  width: 120vh;
+  max-width: 120vh;
 }
 
 .thirdPage h1 {
@@ -116,17 +111,13 @@ a {
   font-size: larger;
 }
 
-#skills {
-  scroll-margin-top: 35vh;
-}
-
 /* Fourth page styling */
 
 .fourthPage {
   margin: 44.31vh 18vh;
   display: grid;
   align-items: center;
-  width: 120vh;
+  max-width: 120vh;
 }
 
 .fourthPage h1 {
@@ -139,14 +130,18 @@ a {
 
 .contactContainer {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
+}
+
+.contactBox {
+  grid-row: 2;
 }
 
 .contactBox input {
   background-color: var(--navy-blue);
   color: var(--baby-blue);
-  width: 50vh;
+  max-width: 50vh;
   margin: 0.5vh;
 }
 
@@ -160,22 +155,65 @@ a {
 }
 
 #formName {
-  height: 3vh;
+  height: 7vh;
+  width: 30vh;
 }
 
 #email {
-  height: 3vh;
+  width: 30vh;
+  height: 7vh;
 }
 #message {
-  height: 10vh;
-}
-
-#contact {
-  scroll-margin-top: 35vh;
+  width: 30vh;
+  height: 20vh;
 }
 
 footer {
   position: fixed;
   top: 97vh;
   margin-left: 94%;
+}
+
+@media screen and (min-width: 790px) {
+  #aboutMe {
+    scroll-margin-top: 35vh;
+  }
+
+  #skills {
+    scroll-margin-top: 35vh;
+  }
+
+  #contact {
+    scroll-margin-top: 35vh;
+  }
+
+  .contactContainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+  }
+
+  .contactText {
+    grid-row: 1;
+  }
+
+  .contactBox {
+    grid-row: 1;
+  }
+}
+
+@media screen and (min-width: 590px) {
+  #formName {
+    height: 7vh;
+    width: 70vh;
+  }
+
+  #email {
+    width: 70vh;
+    height: 7vh;
+  }
+  #message {
+    width: 70vh;
+    height: 20vh;
+  }
 }

@@ -78,7 +78,6 @@ a {
 
 /* Second page styling */
 .secondPage {
-  margin: 44.31vh 18vh;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -95,7 +94,6 @@ a {
 
 /* Third page styling */
 .thirdPage {
-  margin: 44.31vh 18vh;
   display: grid;
   align-items: center;
   max-width: 120vh;
@@ -111,7 +109,6 @@ a {
 
 /* fourth page styling */
 .fourthPage {
-  margin: 44.31vh 18vh;
   display: grid;
   align-items: center;
   max-width: 120vh;
@@ -127,7 +124,6 @@ a {
 
 /* fifth page styling */
 .fifthPage {
-  margin: 44.31vh 18vh;
   display: grid;
   align-items: center;
   max-width: 120vh;
@@ -144,7 +140,6 @@ a {
 /* sixth page styling */
 
 .sixthPage {
-  margin: 44.31vh 18vh;
   display: grid;
   align-items: center;
   max-width: 120vh;
@@ -242,5 +237,13 @@ footer {
   #message {
     width: 70vh;
     height: 20vh;
+  }
+
+  .secondPage,
+  .thirdPage,
+  .fourthPage,
+  .fifthPage,
+  .sixthPage {
+    margin: 44.31vh 18vh;
   }
 }

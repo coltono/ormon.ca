@@ -5,6 +5,11 @@
   --light-gray: #dadada;
   --baby-blue: #87ceeb;
 }
+
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--navy-blue);
   color: var(--light-gray);
@@ -32,6 +37,26 @@ a {
 }
 
 /* TOP NAVBAR START */
+.navHeader {
+  display: grid;
+  justify-content: right;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItem {
+  margin-left: 16px;
+  text-align: center;
+}
+
+/* TOP NAVBAR END */
+
+/* First page styling */
 .nameHeader {
   display: grid;
   grid-template-columns: auto;
@@ -40,33 +65,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-
-.navHeader {
-  display: grid;
-  width: 100%;
-  align-items: center;
-  justify-content: end;
-}
-
-.navContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-}
-
-#navSkills {
-  display: grid;
-  justify-content: center;
-}
-
-.navItem {
-  margin-left: 5px;
-}
-
-/* TOP NAVBAR END */
-
-/* First page styling */
 #headerLink {
   color: var(--baby-blue);
   text-decoration: none;
@@ -111,8 +109,7 @@ a {
   font-size: larger;
 }
 
-/* Fourth page styling */
-
+/* fourth page styling */
 .fourthPage {
   margin: 44.31vh 18vh;
   display: grid;
@@ -125,6 +122,39 @@ a {
 }
 
 .fourthPage div {
+  font-size: larger;
+}
+
+/* fifth page styling */
+.fifthPage {
+  margin: 44.31vh 18vh;
+  display: grid;
+  align-items: center;
+  max-width: 120vh;
+}
+
+.fifthPage h1 {
+  font-size: 4vh;
+}
+
+.fifthPage div {
+  font-size: larger;
+}
+
+/* sixth page styling */
+
+.sixthPage {
+  margin: 44.31vh 18vh;
+  display: grid;
+  align-items: center;
+  max-width: 120vh;
+}
+
+.sixthPage h1 {
+  font-size: 4vh;
+}
+
+.sixthPage div {
   font-size: larger;
 }
 
@@ -170,23 +200,20 @@ a {
 
 footer {
   position: fixed;
-  top: 97vh;
-  margin-left: 94%;
+  bottom: 1vh;
+  right: 1vh;
 }
 
 @media screen and (min-width: 790px) {
-  #aboutMe {
-    scroll-margin-top: 35vh;
-  }
-
-  #skills {
-    scroll-margin-top: 35vh;
-  }
-
   #contact {
-    scroll-margin-top: 35vh;
+    padding-top: 10%;
   }
-
+  #aboutMe,
+  #skills,
+  #education,
+  #experience {
+    padding-top: 5%;
+  }
   .contactContainer {
     display: grid;
     grid-template-columns: 2fr 2fr;

@@ -20,6 +20,7 @@ body {
 
 div {
   font-family: "Roboto Mono", monospace;
+  font-size: 18px;
 }
 
 h1 {
@@ -36,6 +37,14 @@ a {
   color: var(--light-gray);
 }
 
+.secondPage,
+.thirdPage,
+.fourthPage,
+.fifthPage,
+.sixthPage {
+  margin: 30.31vh 0;
+}
+
 /* TOP NAVBAR START */
 .navHeader {
   display: grid;
@@ -44,8 +53,8 @@ a {
 
 .navContainer {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: end;
   justify-content: center;
 }
 
@@ -237,6 +246,32 @@ footer {
   #message {
     width: 70vh;
     height: 20vh;
+  }
+
+  .navHeader {
+    display: grid;
+    justify-content: right;
+  }
+
+  .navContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navItem {
+    margin-left: 16px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .navButton {
+    font-size: 18px;
+  }
+
+  div {
+    font-size: 20px;
   }
 
   .secondPage,

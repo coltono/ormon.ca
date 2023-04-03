@@ -51,19 +51,16 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 auto;
 }
 
 .transcript {
   display: block;
-  margin: 0 auto;
   width: 70%;
   padding: 10vh 0;
 }
 
 .video {
   display: block;
-  margin: 0 auto;
   width: 70%;
   border-style: solid;
   border-width: 1px;
@@ -88,16 +85,41 @@ img {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 2;
-  width: 100%;
+  width: min-content;
   align-items: center;
   justify-content: center;
   color: var(--light-gray);
 }
 
 #name {
-  margin-left: auto;
-  margin-right: auto;
   margin: 15vh 0vh;
   font-size: 7vh;
   color: var(--baby-blue);
+}
+
+@media screen and (min-width: 590px) {
+  #name {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nameHeader {
+    margin: 0 auto;
+    width: auto;
+  }
+  .video {
+    margin: 0 auto;
+  }
+  .transcript {
+    margin: 0 auto;
+  }
+  .galleryContainer {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 790px) {
+  img {
+    max-width: 600px;
+    max-height: 300px;
+  }
 }

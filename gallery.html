@@ -8,7 +8,18 @@
     <title>Personal Gallery</title>
   </head>
   <body>
-    <header>
+    <header class="navHeader">
+      <nav class="navContainer">
+        <div class="navItem"><a href="#videos">Video(s)</a></div>
+        <div class="navItem" id="navSkills">
+          <a href="#gallery">Photos</a>
+        </div>
+        <div class="navItem"><a href="index.html">Home</a></div>
+        
+      </nav>
+    </header>
+
+    <div class="nameHeader">
       <h1 id="name">Colton's Gallery</h1>
       <h4>
         Here you will find photos of my different interest and adventures, in no
@@ -18,104 +29,72 @@
         Kind of like a blog, but less organized and without captions. Because
         organization is overrated and captions are boring.
       </h4>
-    </header>
-    <div class="galleryContainer">
+    </div>
+    <div class="viderContainer" id="videos">
+      <video class="video" controls>
+        <source src="images\video.mp4" type="video/mp4" />
+      </video>
+      <p class="transcript">
+        <b>Transcript</b>
+        </br>
+        [The video opens with dubstep music playing, while Colton and his friend
+        ride a home made go-kart.] </br> [More go-karting, music continues.] </br> [The
+        video ends with a zoom into the go-kart, in slo-motion.]
+      </p>
+    </div>
+    <div class="galleryContainer" id="gallery">
       <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/RYxKepFH1oQF5H_wxf80gHk0IUNvxE1SUw74tR0yo5anpYcd47lVxoXp0GMTPPvNPX3Gf1coF2Hcad12OlESYD5wpZ0AKuGBGCFrmGXaoNDLj4Q2UeEs5WXvXpcp6IDWW6a9B2-3LpP5N8DP06ZLyu1pb7NQYJupPTXgnp18KNgFjDIkDYPM-Dase27LLIrlEoVhUqvk6WJJk8v1o_JymhEbRAZHrHRLIf-l9tdmL57X-qekEeTwcZsQzqlVe9DKcVY2aSCqh5-KIyOcYcPZs_tBhZGHnlb8h_7ubWzR9qijzGi1KusEhFxqhQRVCyK39YW5dwXY3BbZ3U05ps7s9WMJiVVmRbOgSaWUIgm4lUImdytZuZfU7HjdzZwM8HaLbwccQMV1bNFDF8_f1wMma7Iw4GFhp71ukoCCpYK6GCOO7xwuLuEvrzaz1JfgZISKu8Lv9R_-cQGx7bECGHwG9fQsGXssX30hu6T7Ao2a6W3QgSJHijGPS2g-QgGQxopzDRfcPkneX8rINi_it5ej4gtU6prsXbSTPrdGDHDRltOXl7Oj-vEz8Zfh4WwJYwC6qzyDxvDYxao8dIPr7_7Y2EHHyY-l5Wp3YjO73Kr-LqqErhDRUa6kAgcJ-1mIt_oG2l7NGjF_tEuo_3o8nvYwT8_mHHp2exJ8Yrb2kNe1EG4xIZBjDdHN8ecsxln3g9IPYUlndSxrQPtedQoOtHjlKodGrI_nxAamYdtL2cV2wqKtvY6iAjoIqPIxE_XY5HZASn-p1Wf3TOQrxU1xFHSchztI65sVuITRlyFc2wRyMCXk6z2RTc2IedfoOr-nJEZ1YdlJ6QWLNyY6zEjEay6yvs7Hn2vT-Gjb12w6EDhHekXb4XGv-hDRr80mS1itf--BUxlKoUffbiWjlIG_50Vhwlh0vzjhWpe21i28QTpeg9c5Nw=w1560-h878-s-no?authuser=0"
-          alt="Husqvarna Sewing Machine"
-        />
+        <img src="images\sewing.jpg" alt="Husqvarna Sewing Machine" />
+      </div>
+      <div class="image">
+        <img src="images\play.jpg" alt="Set of a play titled Forgiveness" />
+      </div>
+      <div class="image">
+        <img src="images\taillights.jpg" alt="Datsun 280zx Tail lights" />
+      </div>
+      <div class="image">
+        <img src="images\mru.jpg" alt="Mount Royal Campus" />
+      </div>
+      <div class="image">
+        <img src="images\shirt.jpg" alt="Custom t-shirt, not very great" />
+      </div>
+      <div class="image">
+        <img src="images\300d.jpg" alt="Mercedes 300D" />
+      </div>
+      <div class="image">
+        <img src="images\calgary.jpg" alt="Calgary city view" />
+      </div>
+      <div class="image">
+        <img src="images\foothills.jpg" alt="Industrial building" />
+      </div>
+      <div class="image">
+        <img src="images\calgary300D.jpg" alt="Calgary city view" />
+      </div>
+      <div class="image">
+        <img src="images\suzuki.jpg" alt="Suzuki X-90" />
+      </div>
+      <div class="image">
+        <img src="images\280zx.jpg" alt="Datsun 280zx" />
+      </div>
+      <div class="image">
+        <img src="images\280zxfirst.jpg" alt="Datsun 280zx" />
+      </div>
+      <div class="image">
+        <img src="images\280zxtow.jpg" alt="Datsun 280zx" />
       </div>
       <div class="image">
         <img
-          src="https://lh3.googleusercontent.com/iFyfOSijxJyaqN4MxeuTA9lR7bv0OUFUXOkUDpDZUuSmTaaoJlRi3PldYYfsuW5TUyKpHAe1XDX_Z45X21day83zQ-2YGz6JI9jhmHeeUWoGHWSqIveRTkriiBc4nXfxRkbvl3dLEtVM67DcLDb0TUi-klZ5ul5Ku9kLXnvEheUMs5JRCpDV_XnsWDVuTMCGbxA49lQZsPwRgUD0wYbQin1lJizoZw2w2FaDgMgFwr89ynztTcE0HZx1d4kUMqVzlYskyaAyb0sNxCkXYLuGc4WYlvIrjsBTMgu0_coBj7cTcVu4gghINDUZ5SVMfmPoB6Rt6F_YIWV79zK3B80o5M92wGXgKP2fqRWcCcYEMxqNj1eyJBBWW8MLBZwGWp_ix-gaqAP-VY556AkgWQqvyJdSz21tOb9C6wgTGzBEoywHOvGguyQdlABdk2uUot5luV2R4jirn8etyCG8CqQ-um6LC8-TLHQ1IzwIditWLT4bQa-2sLaC_2Ygovs3xDwRepLd6t3L1RmFWLon2oANDDCyp-ic-GzxjySYaG0r1KUYLLOYAy1lJxufsyKPWs2d_PUzFPXalSOamEFAO8IpT1NZyjyp-sDt-FSfY8wju05LBNzZ8ouYaX2QjGJL6uJxA6CdFMtPjzeaAkQyaNogT36vp2C-Ah6Dw96N5PHJCOEzgULniOWkp7jyho7e_h7CNBLMuHCJyMpYhCiU7fExqruyf4tw7wuK_qko6ViuRKSM4l6-yYI9r_QWtbZPxUXNQo6XvGtQKVRUKSvpkeVzC-Nmk4MvGkKBLsWUU3NRBSZ_d_lTi4yujW28U0mjwkuCjKY3z_f1YQer5I3GLv4c6ZM3g29Ubb5902TmYPSuQgcJCV067iiTTbZN8H7tzVQmloo87xAAd3fex_mxG3YmSNJBvB4yuossQRSQL85WRSqW-w=w1560-h878-s-no?authuser=0"
-          alt="Set of a play titled Forgiveness"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/4SSIuGgx22i_NQ-YHU_EBBUVzOelXVMMS6EQbbk5yek_U3rVkQhScsFESVe7OWoZmHFHaP7eoheS1D6bTjkL5lNRzyEGq6xiuDy5_7gOZpLJky3YiJmd_dgiRtKP0gm_zepZ25jOHDG9sEfsezUIoWwYAFpIuFyFmAFZfb8WXVkYvqq15-8sP3pbtf4CdX64fQc8bDUJtw_qfwGUWwDRNUGu9pinlqqrhI75IBkA5JfVzfcrEBEhe2PDv90u53QEdEsTYgC8JHp7ZeMawLeEZa2LImJNpLFbQES-lvZv2MN3IISUs1cI7nvH_8NOqmwRB_Wcx_vGxgydvAWJWLY9kC5AAbuWT75pazAg6NT6pd535O9WfFt-kEOs8inV-8p_K37LCVvu1nG3r8K9-ZLyp4taTLQbgq3rR33rmycthPJwmXx7y5zZwBuEVbg7_XubQ3uvstAcrXmla2JJ0Qo6FUm_vEh-DaB7cw1G5vjwXcdctNrVQ2yy6pmlJif239jVWWLuCyNFf2N7bm0rDDFMgsxyA05m8X2asklxaSobVcaxUBuQFTbZJsbwqEHgzLW2nGtwO1aSREIJDNhShPXQJKmJ_bDtFtEnGfJUGUStPBYo1dNgusx2sJHOo8ieELpma6d-2uJvSnhJkhOZ7xhH4fKMK8a_gkkZ9yh66MkbmfW5Nml9J_FT8W-vL9FkqHq1VdTJucFnveWQR6W8EAImpmuS8-437PxAUR6ZEdFxwWYgPHK5efxGhMXfUR9hC1XP7GdYaSw48-FP6QPB7_DkpvoswDSerL9AVVew5a1xAa6B4XwrfnZWct8qfVY8iPuZWARKRmo26XgYnUbupr5aSTrWjnJwEIJZE79by-tX9jUAgc8lint_kX0ilaZcFoUSe03UCrYVuSI7c0_SVpPUJMa_WM2_kZ1Fv-6Jxz0uavKm=w1560-h878-s-no?authuser=0"
-          alt="Datsun 280zx Tail lights"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/Gh-Wc9xadmA9gEDjBU6MtVVp5ngvb0aHERZA5tggxeX95NJuuv0sQMIwiXPamUMFbhxaMIR8gWNTctBOJBsBEbCtBmZRZvvvFEq2A24FRg0J_bOyAz-Wwjdc1TTa1rVGjFF3kko5MtsTqNgspFQDGphWKBMrs8jRUIyNzEyFqmMmMzk71gIWlZp8_NRvQWld7DmRu_rg-mkHiWWWOmYOjG3L2jFLFLVNmaG9QGuHOZb0WS-XuKzsLPuhj0oiAb1ozvdyGr1n5YLGZSZBKGzttrJqQ56tXJzfx6zaowa-GxndhVzovy8LFdgkecQhzcH1RwSk6kx2sXJdfEOvPg1V-_0aTsYG8wEjNBAwgv7Vo8a0xLu3UeuQm4__ARWVZ4QZyj2QUSFRohg48_2_L8kr0EpFVWJaRNV_g5-bYiapZ1-fAH5WRIk5UIv17QzwWUgaSgaeuiMGjihStrq_UFIqszLxsOq3oR3v0n3cHHGGTy0ytiXPkhXZ1NIj8TP2WRJRsZPjQE7Jhu8-BnXY1sOiGGtszt1LVWG6OcQEqw4dmf88_tlK8Ory5tJ1igwkVcfKinpLfn7eQgwrWjWBArvyjGIca0fasHOE5Ol3jRoLDqGc-C8lDYk4LiQ46o9X1cKd7_QYiUpMaSEP0vXwl9OPUiLBAtoKAWQQWk4FbjL1eqz5diq5sahGn5QHfBqclGayTGZovCWLdFdxFmAVBWCQJtI1NFhsa0HxPUh3rbHqEpNNC6_EIgXFdbmakkMGJBRH-f92MJ_6n-2SpCuQ5QN2GNWW_U9GXsAsC7VdZ-ws4nr9CCNl-m1OE4CR6e2IzSuFwsO83bJaMm_AoI8BDIIt9VFL2cmGjE8eVK9YZCy3lwhChc0nR27ca16EWdozgAMp4FCJ9nHzl_rx___UteDHTvQ6XG7Ei2itloNqCDb6P98P=w530-h941-s-no?authuser=0"
-          alt="Mount Royal Campus"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/HMLiGXMxkPScTTFICJTUJzL9O_KFU8oJD7a8Jlqm04mf4GLurrRV1lxLrXnm2Ww7u2VUweaWFZ1pcLklE406yHkVxtJJ_9jWMaaHeSs2V9-auo6cODZPNHOdtimQybDPqw8dZrCwn_ZLqLGqdTPneAZC5wi8A3iC61kkV1VuU0N_s7IzPgqvR-BJ6xnZBfKdVbaUe3eeka8PwZtgCHGjaXYJNXkKKldmPlp-ukbFAGMJ2Gwoe8dzGsODlT_k3m2L-2bdepKCCOnJIQvl7rg-eNlJlohAikiLfRfs_3vqLUbqqoNvMxPPHUmfL8jDT6KGF7AyvneLZhFHSvwvV67AmAe6dGCH2qimscUJCCA8F7wDS46CUGaXMB-j7mFM8VbuC4vp79uK-OCRyFlMhPsFCXgimBaDwFJKMly4pnZSEUQ0Ol-6c2zIBD5UHrLEOBW7FrQ2JAmnNOTaNyWt-2bxLKxC2jSbw57Fh-aA6lLQ-jrzVSyx-vy2yH7zPRwPiD3ZF6ZPyQ9V191i_b9ZiQQZoJwTK6i36BmOXBDzOjC5bzRT7S9sjzY53qJ4hJiLwObGK1mkUa6c0iGLdYNctGRgNhX0TRSAYCOmhSa6VESgeBJIvOkuukC6smPBS8XBHEuDchea3ZBHJ48zROL4_qFoGyDBYqDyye8AhhZ03ybyTZRUBTN5BUWWbN1ELc2kzNPZ3dfMoMZ4BJBr_2jmsGkrdZTUsbJAnGUP5C4n4NY4tIH48npMm-QclqNsElh6_eTr4wrwqWBHeVatjeHB995sTdj-L9td-M4mwSvsitxQ7XDHWu5FKYKr8RrHODIEZBpCfnfGFDfXRRZmxC3w3aBY2MPPdFBo-bMP5bwAqWlXfej7BOUXVRvXo2yEGVhfsDBS8ywaqmnk4Fcvui53yVCoEFF5Sz1FsBuGE4N2O8UR_Ltw=w530-h941-s-no?authuser=0"
-          alt="Custom t-shirt, not very great"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/9QPKrqBx4MMpBC8dUFt03MTe9yPBa4YzX4WwsYdeP4lzgKea8yfujh-22IaHCKfqhjoTLGSeye81sF3xvL591sdnAK1gi3nnZMtRzFYvflkX-mEa544espKgEwlTGvlz8HKAge-kSYx7oIy7dHRlLuTVBp0To3QWVLpk_CCtaggsy1ldCvHe2P2cGKiAN599jOIF7AoaQBJGPIrIpsZod7GH8LCOGJcHn5hPEKLkqwa-XKNzhEs6ooFtM6q9PDZD94IPdLorpYUgQiasQzVE3G9bJsMrhmC24oCX7gwU1PU_FDczeU8YYCC8_k9XojzfX1cZfDA1zzHeW_zIImj5YvdaOQTfUPXL3WmgMl9FRhXJrYribODGqf1cxVCXbxh4ZxH2JiotV9pnMW11nZJOpBlXwWIcmcdf7NQc2wvlzM3mClfrsso4YPlDVGT2JvfYjSz9e-QfLOKnJ-hxlb1kA3qRD1D6dHNnaqP4dXNqIaP279eY4t1xmyfessfBxYmj4aa6TKDxLW1iKP426LiDgJ7uNQZHKyyaloGK6H21RVdYek29T9x-S0lxd3PPF-f8dtK19Phkz2NKLWvm2u5p4pdPBxcStVh7VUbeeObs-GBrHKpxCQjM868DosN6UO4Z0GZPLCMSiCpVuHNW8CUZ402BBqi3Giq4MTwszo1yMk6EhDoZI2t6dPFC3cEpxZLJUPGJhhKONOpaUEtiTEc3n55_TD-IoK_RTvvQ8xuJkXL2T2u3vk8cgHk8Yehjbbbx2_v81KaD3N89Sj54U9N5U-9S7yco3WtSxBP-RYvk-i9wcLGgO1r4lHNGBkYoW3vdi6aQZq0hm4XJApKmxIsU4mv1XLqVeAFm-vBqW38rz0XjL5_D2J5_FyEOe6JYtWxLbDXDTAVtMIRgDYYn2yLw7vpsSzlfhhHqgBHencC7xcWK=w1560-h639-s-no?authuser=0"
-          alt="Mercedes 300D"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/bO9daS6ga51Nv3L8pl794wl555w44QeFg4Q-orVgw_EELKcQQGWPzleF1nHNM8sv4u8kRTB2D0WAGZLDZaSpgEuZE0TCnl_F7KorM-e5NSmTIOihCZMWpLllD7czemFF8AB_NK2r8QyjcMPEAZKieuCIHT96t1bO3WHBgC5xEh6iKHpITeU8HnAeman2nWVkXq1-ZsVpMmxVes0qCIZA35qI4udP9gxk0WkeVZW5NqkOO_2W0bzKQr7IW6aQXWJXC56E5MTH3Q-r372bla2Ew6WSeu8ppvtyD7zqb6vK8oQRuI92oH9IrK4umWxBnFjaEE9b_Fr2aQEvEh86Ux358bwxlZgJOglvEvjMq9NwilasyLzRkecmC9BbbrMqNjXdLabwUqRUzZUzS_Q7a93KNMz2P6ecL520AW4iJrlMLIgSIeStXxG7dkonFu8_jQ8L7j5AAp9wejQ3jPx2tVezuo0Ji1rpZ6mRbpT--A1RNpxRzPrWRPIRTudbRpO_7D83wQ8nfM9qnmHuflCT0idTXNK6Dv7IEyKFvoU1XXbKf1a5yHONifbKtFC9Dx3SI-UKIhAobVS7ahn71vDL_xdlatZU-r_DEtdHzGrToZTqPy1AC8Nnp-s4tiL1nDL_zr2fq3F1QVj6sGzUsb9Xabg7UIYVaStZotI_M48Vaewg0HG-aB6v53ixygaB1WjwtMupXuEKK63TTF7MAwlbRqWXpiM1ejNCSRudw_o9IPhPUvZvNejWc0qpDEOwZSGUxEK7ovCKPwA2NV0FY949nQ4o8sfLSkBOz_JAZ15jEeFRJjYlcukhFd1ZgX_h8g7MZ5Gg42D_Q9tu15HY6HGlCNMZF32QhhiYeSgkbfKZSPYKXPitNI-Da0jeggcD0mUYLAWvJXh8xMT0giZWL1TP8QXaOXyQF44xdK-wXKQ_O9-KzCnl=w1560-h639-s-no?authuser=0"
-          alt="Calgary city view"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/jBTg2oDhh4HpTACfAa1fcaXjRD0nStITmcYFv3HtYOzPmyPA4p7WGP5A-ZdR7zqtFtIkfMVWaoSrnSEkETOR1XL_w8M_52XdxG-RpP0txEmBzXL1VSVD4g8VAYUIizToi199TByEYDV3DYCtINQRyd7tTW6tELRJOzdtj5DMszIpIIHLYIe5NvvjvYfJr0nPa5yBw1-JKrQKJQegRUbm_F3xASlW0UnI_ZYhfLkfHHvOe1g5q58QUCvh-UdPCIS-ewUSmQlA4zY2aFv3JM08EQIBFWwnumv4-f9gwHRvPB0Aydyx_WKYX_NqzvZKQEToiY2ylOeFfNbNOTCXc9W-kTFOxznmipLXjKMxvJRlZ-YP2gp_9gs80prVxqzDgOluF3fgppHzH3CHEHYB3FhrzhlZ1lVol7q_GY8KCjmPuYpY6BenApCjsQcQ_9fB7hCv8Y2QvP-_sjof4-4Gd2FxzFfl3cqpKJyeEzWB_xNtQobyS8Mq3AdT4ICmzQMQjRsEcMEbzmtNtZ9ESnOxE039f39GcMSe9GPMMoDT9QgJA5n7N-ujPl8sC_fW_-kxMmOoVnqlcLM5aC01lviYGMzwDNIGfUMrrH1YgdtvXyymqoWUTzMbTT4FS70A4O78_005lk-a5-814x6t_3qbK36HkCUivXed5_rUXwjWoFaKehdKKbfUjKdFFogp-3sXvd3jrpa6aIRSx2jJQWIRFXBbYDpnFFIF2Jta9cmEzwTKoPOJRTObFi8zLepEsJ3kQMAAJ01TH1xaoZ5SSN8SgopIv81eWmZEsjjfox2WOfRvzFnBA8qi2Ao1iBMaiCfmENYEGEnWL9SiKUdQ53Ghfoi6J0g9LbFhzxvyAER2rn0ZCxTokylJock7HjH7aofe0yCpxdi5DGsji-FbtyWP8HTdVMGv2dF3QjCxrjUe67WHv-69=w1560-h639-s-no?authuser=0"
-          alt="Industrial building"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/HBpiNr0O2CljdKqo920mdI3mjJjp3XhfxDlT_Q62OMR9HjNz7oDzRefaZoI4cukGLOtqnqEENgtvPvsf6MaL42dIrO5RKNFd8NO1QwOiKQslBHA3BCF-yxwUvdt1TZ_AZN7EEf06LEEqwkgV1RxxU7csGz6UM0LFct2JHZ-IQGIMEnVBhxpOxr3cM_KZWcso7x7H-JvgSPL5sLInyzXNAKUVR-q9hRWEVPoR4xKg3PDpYQCMggQfl706c4MRE5Vvj6st8zat8FsY5tWAYHjICP0E9ngy2nkZVbyI1LwV2YLeC7-FyygZF0Qfx_h-PkxD-1HO7iV5aCE5UkLsekEdupRK9jZEPPsbAX6cBc9qFmayHO1L0X7Rk_P_k0J512uEPYiAebjaOESe51fa0lg82yhOAVvQZlByE8WEa7g4kiJ-ckyDpmAa7Deaea_sS8rFo8iwzKLCIJajoFvR2yi-mOFBF50SjSjTy_7tdZFav0SVkvFYjxAV8_OFwkce12JlA4QlwuipuTDs0zRUCYjtSxX9Yaq8CQqE-RP3AvLY-84cdNNA7uSxd2eutE8eufbODBcyeMy5VHce4bw8WbDgudWJefga6gdZN8_TVHkkBbrufs1skoAHZKayLQPQAeS3H-vwaqDGMFywTyZJWgWXd7OObb6dAkbFj5DnRd5j98wU-RnkhjkWft5A_ID_e07K2e8hvgSkf-j3V-SeWEB2lxIjoIug1Nv6Rv4YZL8RnhDKw2R06psfi1w9J2vGKbOTjTWXHPuG2rRZCbggP1DZrFM4S_NUEkkKI01fGXhsCWZQPI78M0yyXzwWfBY1HSsbAPUFGMaVRy8wLcgfjarf8xPEXXRYgE7hUCimxgU15jkjoaUUBZRM-_GvGxE8ymwLi4lul5TdG-o53UCoQR-XKvgk1pAMQPbfNCqdBsKLjFYh=w1560-h639-s-no?authuser=0"
-          alt="Calgary city view"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/SLj6gb4Ty_1R0DjNRIDUJQcOD1lrdRlAp6S2SHD9MOALY1FwMB9nQIIZnGszFpmweeDzQvNJtQ6JsSeaiCkB3VYXSYyWDLnhsv2eI3ZJxi1oT_SILdG3XRZsthvNK7rD7nOAtaa2sCN8NkVjn20cbfuR8c5BEcZRyINjgU_pYydtO5Orr9Pa1exaUZnE67kgJ_i-Kz0RQSLpd41ZDye7gbLlER1CYOqp3RQN29xuIW1ELtbNv75FMjyPU_ZFbK5H6Gn7USWz6xiCYKz9P9BoQJWG4tYB6CJtiDLOLSs9oOqbfysBU1PyJSzfGxTs552AJnX3u2VsykX0lJPbxF4VajDSuMXwtMSm1kTRB-crRmLXV8zh_8nR4jTfFY5hi-S85_Z7CWKlJLG38TBjnm4rq74xGA-hdyXo69jqLvoRpQ6mdJPy7sXuKlSKu6y8lqH6tkBA8HhVJrVdzV-WrE8iGRKGoBRy43-AUVxtu5I-1VHE7NLDS10IDLEb9CHO-74FDf0UbnMFfc3cH26BnS3-9qQnh6vmnpLAWQjxqPe_9XyYwzXOVebvqNPBmikvtxpdVBqDywUqAtjelsK-mvnkpFqfGI6Mwis4KaHnPqQ6QXsdNdJUo4IFqLcD2gdJ5n-6JXQ0M5lyDkR195dkBMlh75V7sF9qxnqWsC2JaHuV2p3roOuar0Zx4_94xYCdWnfxLHiDO4G0zfzEtPQABpPu7vZbEk_MyKC2S6YqWVskxM1MURKTVHshyo9sjLc9Kddc7OZFV7T3QV7tVToCZY6EQF_IQhK37FYfLO5i259tV-sXb_K-moU6yI1q9n6lVdIJSF5K1DMsqtLwzCyXGYd2PqpoXAkEMm0IT5AlBraUp13qyk038nTu0fdYFX4k5DGRXZEII8KJ3rhAJuwtZU06p30_R-vmPjIfqbhKe7NgD4pr=w1560-h639-s-no?authuser=0"
-          alt="Suzuki X-90"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/4Q9mD0pG8UUvV0d19rS5WCuFZ70H_v6MhBdalDjNW1IzIXummvXnfevqL-QpS1tfJY7R-0lbqIsKde3IaOYLdPrfwi4e7BiVJwf8Hv7OoTmfh4s7BQUaM2P698Kx-cqLhdaPtvITEgqd-FqKIOGOu1tH-OOSVK-1Aa62-8BTFICokZ3LVi5RU0Mr2TBqHl5WnQYQwb3BwrlthlN1X30_Z76IFCxsHD62ZlMAOogU4rDCw5qzbrXn9mhx18r_ERHM_y0lSm5v0pp6pkqE57gE3chnWHf5Tr8NI1q2baWsgToNKxhqA1XhPC0SgJ8CQBxEVgznC2KIGQuOGTRzjS1tBKpCtYVfBGBkc82cMWEGzLr9_sUcuqSinZlwQLd7tMBFGw9S7e8rkOEp6blpmGWtL2iBd3zWziSxKIVPUoqCwpYSsDUlNY_2H3MaYDNqqesWuxsafkJesk4QYpqazx01W_L7O_k3gYk8qvC-BoTsWiBO0uQhNBzONIkild_x0ZP5rEDIA8HTiQ1nbuGJ1kItNS2YR0EGYLaW2qR4rbiGnBLrGil6aQovbl306ToVVb2zmzrt77Zdu4tRpMUzaNpC9uspnma9mKEYMtgVSlr5o555jgWJNEQiiURPUpQIb6yLteoS_cTEPTj-BhTjC4vNqt48FW7WuTxj7RzzIhDXSaIyPIJ9JuR-kvXKVQfVgqkBDCUSKZzn_0dWasS-B8ipMJqGZnuVEf_35ER0dxrn_Pqk8cfNIOXFhrpM8VbF4m2EWqCDi-o1ueTvO-jFkVhRl3c_Ecp4KYtt-QQbJZM9VpqWvHECO9-w86QJ4NjFbG_lnHpaGo-YkKltSog6pmtepls1bfuF_H8B1ayTr0drqgGy3AkDt9IEqvCD9tzmGsrDftReoRHUKSjt1FV_i_QOVJGr0finyHXEvDjMrT39gs8J=w844-h941-s-no?authuser=0"
-          alt="Datsun 280zx"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/8ucj38k946MQzhV7K3agi81IPXNUavJ9buBQKjFHMdJMJ5SqIQAxTz-Z8sgxb4UeYao0LZOedB_11tCQQqUwpqCh3iPkwKCBXeYQC4InxkkDo0ckIgTSxyALy0z7NmN1I8l5kMVxYLKzsynHWIASYfbiiSzcw_XPgEUlaxVxMyYzhGactcm4b17BtxVySwvT2NsLUgvnRoqKnR7DygoOwhBBOorsUPRi8ydGLG37F3n7IS_oG6377VUw_oLydrTEfXG9IhwSxSoJcCZHQnC7n2XU9bYk1zWagu7s75zujiY0GQgftbveteyuHuBtj88s4h43ptxEQneJHEDcNJ_XZcqLxlm9PowwkQ_iOu0a11wj-kEmkBF_zZI_3I-5PJ1q0KuAk5dxfHIbiFVa2ntHvajXm5mUhAs87MZZ-UjyyWS0QrXgmDEgurQu6ZaQsS8LF5I5tZU4V6CJ5AkQ6gcEe_wE5LvU-WFNXpXu2DKpkG_uCpPJeN2OnwVE0Am-FQVseSE6hPtxqCvzBS2JbXPgV51QjTZNwKDSYmEcysjEW4AY5B-ql55Ywctr0JiCYv_FX9c8yVp-e3U2mI9u0wRy519euGqrNjXymRC6cDE3EbX_hsHwNJxvbfZbsHo3kYaEUvfloexvYCqxR-x-QH3fQme-IEaA2MMXX6YiR1cS9r2Wv2Hs5e3zCzsTOS_XSWSzCF7m274NPdh9IB9I78oShMiYeA1w-q1BpPCs16WT7czqZBaYY8RJmWrCJ8eVXGWZGWLBnMsCzM45oae9Qm65ivOFDC6ciGcGxKck2vvi26W-KZaKO-UxpF8NPsIFEemIchriHifW3jqLnCDRfFNAqyLw2yTOlto8A4TnwOX7E0jxTQqMfB3iJAXEsZOoV5Vn022-BVf5k9jfd-_o9n8PJycujiRoNwXMYJi0urlO2Hs3=w1560-h797-s-no?authuser=0"
-          alt="Datsun 280zx"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/TFUe8mDq6swYkrTyD5ZMgWcU1V4xAa8FDW9d-gMrjY90AP8lVG7FbUgA4dAZkphYSfjPtRKh1g0Nj54IY5xLyXLt-I9bWdBzvGSWHsg3LkenP3lDkgRYRmQvw67jB-6S7_knuz5h-QmuuB0WSgmOTVFDiUzjYCzFREBkKWIuTfj3__lgbJuC4EIOGWm-1o9AGym56L9X1RuLIbIt9z4k5QLLW5q1MMHrJCeqn5KYINAP5ZUqn-E4X7JACLU0djMjojd-CKy7RiAF-nbTU2uDQhDOXNiyoZ1O0Rn9rKZsos01RfySaxxfGkNkOzfv1Q5nNIQKun0haP-5xwyOitmBsclv5gZcovoozgHmalbLhPVjsEcT25ndF6lKHiZevSYO5v7lLbsYPgK-hhWMQDDliLoY1VVjgjXHwf9tzVNbDKdPCogBvJnbsV_JOLrGo2jcyeoGLMrEHtf-02JI5ZztU0kwv6iu6QfpruNWj0qNRKMJKXrsVy67kIEkgQptbLpewRkKYR5cBuL4E1p9hXOYh2YlS0iiwnYAlryAOHxk5inJaCb6X_csrKmTlU5QSRUdtf6nhwXdhirEjmmX-WDMNeM49csOaMo--0KpNPTUndPK-twFUGpsN2VTmbebhRegbEOLZznna7sxWiTU45TePWp9ub6-T28zempJWsAleE326QN1tRaCkJYwz7OOhtPhz42LcmHR2iKukYS-LxTed9icHht1Bu1IOn0htK37kjU0KPVaWj5-njA7Ry45QW9_30R6XnaMg6GyslEyKjKWRtW-cdYi7CTAMer5p7_tAL1yjwm1mgpEja-GsIUGzmJPZHcsXexSsO6hmOSjuoKnM5UkHM9nIqygJ_bNob2EBCfFi5vBX6w3ksxdk1hleUyYanwrL4_oQ-q0AmmGHhIjLgy0h3AXehrMA0LRenfMQkTL=w445-h941-s-no?authuser=0"
-          alt="Datsun 280zx"
-        />
-      </div>
-      <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/3571X5-lNN0Ubia897mqBVyx-KEUCqv5_zDzuaYaKHjTZa-zJL3RAFY1_9F-QLKdyQDwcRt7WlDqOcH8qDJIRDpnU3daO3qECuCbll4wGxU3Wa0eHG3loW00Xab59taNcYUbgEKuM4Zi0G63TqRthdg84Z_1vlG3eaM2YUBR8en5KWrHk20QYoCueF2xBNzDh-qRiQEs3gfpu6cWM5KvBpB7mnPQRn4ISVNIuuCdslJCJUNQOAJBkjK4UGjNM56YyTMbob71CPQ2lfOtNXICRD9am8fuhe2r3eIikcTyxLS1_q5DwMquiDd2OUaU2LsAm9H05-2_eZdxrc5s9s28BAT94LlUN9Z301XVSTJJosuf7W_C3Uo_nbu-h7VoHC7JLDIUYLTfuO_8r3cOaH4fHoTRgBLzJvRtkA-z4t1iQS83jFh-nV2ZaJq4QG1mk4j6StHFab-gqWTbnpZ7xZioyVNFO65ZRrT2Flx4nJPkGgcjffld6j_PZ_BXrx2IERRmiGnCOyX-YoswiX-s5SOJz9ELf59pjXEmZMKCAR0YjIFRO7K2iQvJ002hzEg8IPJmlrZl8K0XABjrXoVD-7E5IsAdwKHIiz_WIEG_gIlfy8TVQSzcFsDF3_ijo2erqt9SKqpwneDP1keyujrYeS2kSsfjG8pZ8yco3n8JiKryLaZx8djeZW9NXAjxjL_u5hOeR_LnAgUOrIjYY_an2_rMVENL-Ypc4g8FS_NgDEi0ELKQlhfxa3Cy65BP3uJkpxvCnSp4tQ6tpKn2VKczRBigrxwf695KXpZ5O0W-8qqOGb40lK4AHeGBpDd7_avqtlQf6-Q-JYAN50p8OEeJMvBD4AtqctZ9hQlCPasx4OKALXmD0Gflffqr40-hoc2jWz2-uEnwBoDw0PrdJ0SgzdZZ8zPRORI-qt_-f6iS1CI9LsWK=w1560-h739-s-no?authuser=0"
+          src="images\shoppingcart.jpg"
           alt="Getting pulled over in a custom made shopping-cart go-kart"
         />
       </div>
       <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/rcSTiMIuHWtIm-sDQSTvjt_0V0rLJHOAw-6TdhnIjuVf_z3xeVNEPo_KEqWL1WaqDb965j5-SRmlHi2nAx1pvEsIvwSVbO9LXSgplXzBxTcK4jJ_Ow7p6S4Osalj03rVnPqs5F5xLvfmINryC3PKhL6Vmt_AShpVt_3Zfefnm7cZxmyhxyw5rl_zEA7bCv6h1oHiJXI29DsxA5HAcS0IllITCpogk3nLOnLQ6WrdwnUnp2h0MZ0nLB1Hu5A1c0hcbNmS2zPPTMi3YCRYegWQ0d9t5sRmNFgBcNKx1rOmuEBIWzBXayT8mZwTK8PEwPssEBMdu5VAQLrV5CL_9aisyG0zn6KGsD-dH0fujwhc0hxTmk4K9fbqo6k3s1_2JZU2a5doJAxJjDgipvXcCfxzP9DTNw9LIKSeTwkfpXGrF9j7b0zIx7UQbcmcko7osl_yRZYRMuj0f3xBGUkWkWJsZKVnT694TJmrpnDfgcUWddNvxGv_y7UYWLf3__MxJgazi3RgetFLownUxa0B5jzxHDAGsfK1Mm9PQk01agZ3QrDV-G7XGe7vSazVtRHGN9roGqNFrRc0QrQuyoKSAS7OrhbISWndaaxyJTbsc1JDWe_9a7rZHSjyn5VtiWsb8rSUc-SKNLcMChtVcMbqmPDuQiVxoOfn7GgXPDA8FInzT0rq9nO4EHtA77o5RSPSMsj0bDJYprgSTd8Tklka3nUfFe4FtxdHUXtNv3pIl24wQTtRURaIeWLG9mAwGuQnnSIoFylSunAvFVY12BA10EXfHQJ27jqpOyoSWwp8rVqgNuOunXAdaQUThgEjTQBuhvXOm7JKJX8HrGKGXs3CK6C0s_6OtszW2AZEw2CKUV97q_PEiV9pwLCUHcE7fF5zLcwRLPhDB1aH2T6NQRMbULcR9-mco72a1e7ShXvNISHBmCng=w1560-h738-s-no?authuser=0"
-          alt="Volvo 240"
-        />
+        <img src="images\244.jpg" alt="Volvo 240" />
       </div>
       <div class="image">
-        <img
-          src="https://lh3.googleusercontent.com/5KG5L5rhIjgd_P4tvQeFBeIGQBF1NubRFSPq4VT1OKb_EBi3umGLegyDcQL6hnJtsK388OVukgORUYz9nQj6CImshHwFwJcgnw44RdmZg5SMTpWXnFW2fMnbprip-XOtvftzI-1ma93zVorMD_I_02Oo8ZMnyYSQ20WBpy8Ec6Aod-5f6LFZqeWVtj_lKQjSwDpDzwlSYq5KhR-0ndM15wRp6lKBpUjfIkRabUdtn3PqSc5emPZ5TrUVAmjH3EmVmXYZbS3f3nJvry-wEnBipjfBjASH2aMAbZeCgYyuNpmwQ99fZM1XPZFMtBJywI0-J2Wcx93wLv1XidEd8HAsG_GQZdMDOSB5glj1UXGmpL0R51CXMZu35DBUDYeQIFudjm1U3SNOW6U9ld_X13B_XUkuFxmPHwZ8aPy1s44bLcRp8fnF1bNCEfgB3IeUr3I68d2VaSD1fisccq3TzHv2m5jqfqkZGbB8d3Xk1Zs_WRlAvPyZuHBjpRt4S_aauvlKk1Zn7BZHXWiOyjz-W0aat3oa5lwmi4sFjCp_E_hsJOPJJWbOvYNQL65kaaktjMjiAW3BfON-i-MrFvf1seCyZ30fVlIXN11fa-IPFlCyRTwQPULNpdK2JC2lvB15mQyBYKUKRI40KZPR5vK3VC0trq4EBQwKit_EieVED7mUfsP-coChf7iLq81GoublGpZ38XMbG96fXT64wE9yAF5S8jrL9RNf-JQfq3yN9aF8SDzQHZvRrHMY43XFrqf-53DerjdG9c732jPD-uU-0AfZHgB2tjxkNkyeooSOY-_NmrKTcrT9Gi3cdjGC-4dOqO0MGX-V30ho93r5PNeQ0Ag4TRFeaIYY3sPPO0CBThW5ctEUng-ba-g6oArlMcRDwbyFrRzzNzmZJqsOD3_y7sV3N5ZrSlv_IWLyKDwylWcEUb2H=w1560-h738-s-no?authuser=0"
-          alt="Dodge Stealth"
-        />
+        <img src="images\stealth.jpg" alt="Dodge Stealth" />
       </div>
     </div>
+    <footer><a href="#top">Back to top.</a></footer>
   </body>
 </html>
